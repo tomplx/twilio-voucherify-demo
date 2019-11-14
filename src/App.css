@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 10px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.Main {
+  margin: 30px;
+  border: 2px solid #387bfe;
+  border-radius: 9px;
+  padding: 5%;
+}
+
+.customers-input {
+  min-width: 200px;
+  min-height: 250px;
+}
+
+.nav-link.active {
+  color: white!important;
+}
+
+.customers-list {
+  background: #f1f1f1;
+}
+
+.customer {
+  border-bottom: 1px solid #afafaf;
+  padding: 2px;
+}
+
+.customers-import,
+.customers-vouchers {
+  text-align: center;
+}
+
+.send-coupon-button-container {
+  text-align: left;
+  padding-top: 10px;
+}
+
+.component-header {
+  display: inline-block;
+  max-width: 60vw;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.customer-vouchers-container {
+  display: 'flex';
+  margin-top: '15px';
+  flex-flow: 'row wrap';
+  justify-content: 'space-between';
+}
+
+.choose-campaign-dropdown {
+  display: flex;
+  flex-direction: 'column';
+  flex: '0 0 37%';
+  padding: 1px;
+}
+
+.campaign-name-container {
+  display: 'flex';
+  flex: '0 0 50%';
+  flex-flow: 'row-reverse';
+  margin-top: 15px;
+}
